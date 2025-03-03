@@ -5,17 +5,20 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Personality Oracle</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Find Your Code</h1>
   
+  <h1>Find Your Code</h1>
+  <div class="body">
   <div class="description">
-    <p>This short quiz will reveal a 5-letter code that represents your personality. Enter your code into the main page for more details.</p>
+    <p>This short quiz will reveal a 5-letter code that represents your personality. Enter your code into the main page for more details. 
+      This is a simplified person of the Global 5 Test. If you feel your results are inaccurate, <a target ="_blank" href="https://similarminds.com/big-five-test.html"> click here</a> for a more thorough examination.</p>
   </div>
   
   <p>Read each sentence below and determine if you agree with the statement.</p>
 
-  <form action="your-server-endpoint" method="post">
+  <form id="quizForm">
     <div class="quiz">
 
       <div class="question1">
@@ -58,6 +61,7 @@
         <label for="False5">False</label>
       </div>
 
+      <br>
       <div class="submit">
         <button type="submit">Submit</button>
       </div>
@@ -65,5 +69,9 @@
     </div>
   </form>
 
+  <p id="result"></p> 
+</div>
+
+  <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'bytebounce';
+    src: url('bytebounce.ttf') format('truetype');
+  }
+  
+  body {
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 50px;
+    background-image: url(https://i.pinimg.com/736x/01/07/d1/0107d1c69575481c48ed5bdfeaa09ca4.jpg);
+  }
+  
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    margin: 0; /* Remove margin to prevent spacing between elements */
+    font-family: "bytebounce";
+    font-size: 80px;
+    color: black;
+  }
+  
+  .body {
+    
+    padding: 20px;
+    padding-top: 10px;
+    margin-top: -10px; /* Adjust margin to make it overlap with the h1 */
+    color: black;
+    font-family: 'bytebounce';
+    font-size: 20px;
+  }
+
+.submit button{
+    font-family: 'bytebounce';
+    font-size: 20px;
+    justify-content: center;
+}
+  
