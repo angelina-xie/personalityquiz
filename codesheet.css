@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'ByteBounce';
+    src: url('ByteBounce.ttf') format('truetype');
+  }
+  
+  body {
+    font-size: 32px;
+    font-family: 'ByteBounce', sans-serif;
+    margin: 50px 10%;
+    background-image: url(https://i.pinimg.com/736x/01/07/d1/0107d1c69575481c48ed5bdfeaa09ca4.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    padding-top: 7px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-family: "ByteBounce", sans-serif;
+    font-size: 60px;
+    color: black;
+    z-index: 2;
+  }
+  img{
+    width: 600px;
+    border-radius: 30px;
+  }
+  
+  .body {
+    font-size: 26px;
+  }
+  
+  .p{
+    display: flex;
+    font-family: 'ByteBounce';
+    margin-top: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  
+  @media (max-width: 768px) {
+    body {
+      margin: 30px 5%;
+    }
+  
+    h1 {
+      font-size: 60px;
+    }
+  
+  
+  @media (max-width: 500px) {
+    body {
+      margin: 20px 5%;}
+    }
+  
+
+  .p{
+    display: flex;
+    font-family: 'ByteBounce';
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+}

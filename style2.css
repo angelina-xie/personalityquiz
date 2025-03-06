@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'ByteBounce';
+    src: url('ByteBounce.ttf') format('truetype');
+  }
+  
+  body {
+    font-size: 22px;
+    font-family: 'ByteBounce', sans-serif;
+    margin: 50px 10%;
+    background-image: url(https://i.pinimg.com/736x/01/07/d1/0107d1c69575481c48ed5bdfeaa09ca4.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+    font-family: "ByteBounce", sans-serif;
+    font-size: 80px;
+    color: black;
+    z-index: 2;
+  }
+  
+  .body {
+    font-size: 18px;
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .submit input {
+    font-size: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    font-family: 'ByteBounce', sans-serif;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+    margin-bottom: 15px;
+  }
+  
+  .submit button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    font-family: 'ByteBounce', sans-serif;
+    border-radius: 10px;
+  }
+  
+  .submit button:hover {
+    background-color: rgb(123, 173, 255);
+  }
+  
+
+  .brain-gif {
+    width: 250px; 
+    height: auto;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .brain-left {
+    left: -100px; 
+  }
+  
+  .brain-right {
+    right: -100px; 
+  }
+  
+  @media (max-width: 1024px) {
+    .brain-gif {
+      width: 180px; 
+    }
+  
+    .brain-left {
+      left: -50px; 
+    }
+  
+    .brain-right {
+      right: -50px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      margin: 30px 5%;
+    }
+  
+    h1 {
+      font-size: 60px;
+    }
+  
+    .brain-gif {
+      width: 150px;
+    }
+  
+    .brain-left {
+      left: -30px; 
+    }
+  
+    .brain-right {
+      right: -30px; 
+    }
+  }
+  
+  @media (max-width: 500px) {
+    body {
+      margin: 20px 5%;
+    }
+  
+    .brain-gif {
+      position: static;
+      transform: none;
+      width: 120px;
+      margin-bottom: 10px;
+    }
+  }
+
+  .p{
+    display: flex;
+    font-family: 'ByteBounce';
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+  
