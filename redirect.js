@@ -22,18 +22,18 @@ function redirectToPage(event) {
         window.location.href = 'rcoei.html';
     } else if (code === 'rcoen') {
         window.location.href = 'rcoen.html';
-    } else if (code === 'loen') {
-        window.location.href = 'loen.html';
-    } else if (code === 'loei') {
-        window.location.href = 'loei.html';
+    } else if (code === 'rloen') {
+        window.location.href = 'rloen.html';
+    } else if (code === 'rloei') {
+        window.location.href = 'rloei.html';
     } else if (code === 'rluei') {
         window.location.href = 'rluei.html';
     } else if (code === 'rluen') {
         window.location.href = 'rluen.html';
     } else if (code === 'rcuen') {
         window.location.href = 'rcuen.html';
-    } else if (code === 'cuei') {
-        window.location.href = 'cuei.html';
+    } else if (code === 'rcuei') {
+        window.location.href = 'rcuei.html';
     } else if (code === 'scoai') {
         window.location.href = 'scoai.html';
     } else if (code === 'scoan') {
