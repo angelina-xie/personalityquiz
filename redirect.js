@@ -67,6 +67,6 @@ function redirectToPage(event) {
     } else if (code === 'scuei') {
         window.location.href = 'scuei.html';
     } else {
-        alert("Invalid code. Please try again.");
+        alert("Oops! That's not a code. Double check spelling?");
     }
 }
