@@ -10,7 +10,21 @@ body {
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 50px;
+}
+
+body {
+
+ 
   background-image: url(https://i.pinimg.com/736x/01/07/d1/0107d1c69575481c48ed5bdfeaa09ca4.jpg);
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+
+.brain {
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 800px) {
